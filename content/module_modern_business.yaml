@@ -1,0 +1,66 @@
+
+  - id: "f138-665a-55bd"
+    web:
+      metaDescription: ""
+      metaTitle: "Module Modern Business"
+      metaLinkText: "Module Modern Business"
+      metaKeywords: null
+      pathPart: "module-modern-business"
+      path: "/module-modern-business/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 101
+      listed: true
+    data:
+      author_image: "https://0ksjtj3x.media.zestyio.com/CEO.png"
+      author_job: "CEO, Zesty"
+      call_to_action_header: "New products, delivered to you."
+      call_to_action_text: "Sign up for our newsletter for the latest updates."
+      feature_header: "More interesting designs to feature."
+      hero_button_link_1: "#features"
+      hero_button_link_2: "#"
+      hero_button_text_1: "Get Started"
+      hero_button_text_2: "Learn More"
+      hero_section_description: "Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!"
+      hero_section_header: "Check out this modern business template "
+      multi_images: "https://0ksjtj3x.media.zestyio.com/slider-image-2.jpg,https://0ksjtj3x.media.zestyio.com/silder-image-3.jpg"
+      testimonial_author: "Randy Apuzzo"
+      testimonial_text: "\"Working with Zesty modules has saved me tons of development time when building new projects! Starting with a zesty module design just makes things easier!\""
+      thank_you_text: "Thank you, your email has been sent!"
+  - id: "9fbb-12a4-c394"
+    web:
+      metaDescription: ""
+      metaTitle: "new-item"
+      metaLinkText: "new-item"
+      metaKeywords: null
+      pathPart: "newitem"
+      path: "/module-modern-business/newitem/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/module-modern-business/"
+    meta:
+      sort: 104
+      listed: true
+      createdByUserZUID: "5-88b397e79a-5zlt0z"
+    data:
+      author_image: null
+      author_job: null
+      call_to_action_header: null
+      call_to_action_text: null
+      feature_header: null
+      hero_button_link_1: null
+      hero_button_link_2: null
+      hero_button_text_1: null
+      hero_button_text_2: null
+      hero_section_description: null
+      hero_section_header: "new-item"
+      multi_images: null
+      testimonial_author: null
+      testimonial_text: null
+      thank_you_text: null

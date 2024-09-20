@@ -1,0 +1,19 @@
+
+  - id: "0899-89e3-a2c1"
+    web:
+      metaDescription: ""
+      metaTitle: "Hello world"
+      metaLinkText: "Hello world"
+      metaKeywords: null
+      pathPart: "hello-world"
+      path: "/new-single-page/hello-world/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/new-single-page/"
+    meta:
+      sort: 103
+      listed: true
+    data:
+      header: "Hello world"

@@ -1,0 +1,225 @@
+
+  - description: null
+    label: "Module Modern Business"
+    name: "module_modern_business"
+    sort: 4
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/module_modern_business.tpl"
+    content: "/content/module_modern_business.yaml"
+    fields:
+      - name: "hero_section_header"
+        label: "Hero Section Header"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "hero_section_description"
+        label: "Hero Section Description"
+        description: ""
+        datatype: "textarea"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "feature_header"
+        label: "Feature Header"
+        description: ""
+        datatype: "text"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "testimonial_text"
+        label: "Testimonial Text"
+        description: ""
+        datatype: "textarea"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "testimonial_author"
+        label: "Testimonial Author"
+        description: ""
+        datatype: "text"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "author_job"
+        label: "Author Job"
+        description: ""
+        datatype: "text"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "call_to_action_header"
+        label: "Call To Action Header"
+        description: ""
+        datatype: "text"
+        sort: 12
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "call_to_action_text"
+        label: "Call To Action Text"
+        description: ""
+        datatype: "textarea"
+        sort: 13
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "author_image"
+        label: "Author Image"
+        description: ""
+        datatype: "images"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "multi_images"
+        label: "Multi Images"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          limit: "10"
+          list: true
+      - name: "hero_button_text_1"
+        label: "Hero Button Text 1"
+        description: ""
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "hero_button_text_2"
+        label: "Hero Button Text 2"
+        description: ""
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "thank_you_text"
+        label: "Thank You Text"
+        description: ""
+        datatype: "text"
+        sort: 14
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "hero_button_link_1"
+        label: "Hero Button Link 1"
+        description: ""
+        datatype: "link"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "hero_button_link_2"
+        label: "Hero Button Link 2"
+        description: ""
+        datatype: "link"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Feature item"
+    name: "feature_item"
+    sort: 6
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "module_modern_business"
+    content: "/content/feature_item.yaml"
+    fields:
+      - name: "feature_title"
+        label: "Feature Title"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "feature_text"
+        label: "Feature Text"
+        description: ""
+        datatype: "textarea"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "feature_icons"
+        label: "Feature Icons"
+        description: ""
+        datatype: "dropdown"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            bi-building: "Building"
+            bi-cart4: "Cart"
+            bi-check2-square: "Check"
+            bi-collection: "Collection"
+            bi-exclamation-triangle-fill: "Warning"
+            bi-film: "Film"
+            bi-info-circle-fill: "Information"
+            bi-music-note_beamed: "Music"
+            bi-person: "Person"
+            bi-toggles2: "Toggles"
+      - name: "feature_sort"
+        label: "Feature Sort"
+        description: ""
+        datatype: "sort"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Sample Multi Page"
+    name: "sample_multi_page"
+    sort: 102
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: "module_modern_business"
+    view: "/views/sample_multi_page.tpl"
+    content: "/content/sample_multi_page.yaml"
+    fields:
+      - name: "header"
+        label: "Header"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
